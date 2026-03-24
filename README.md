@@ -56,8 +56,10 @@ git clone https://github.com/USERNAME/ShotoHasher.git
 cd ShotoHasher
 ```
 
-▶️ Usage
+## ▶️ Usage
+```bash
 python shoto_hasher.py
+```
 
 Enter your password when prompted.
 The pwd.xml file will be created automatically.
@@ -66,19 +68,20 @@ Example
 python shoto_hasher.py
 
 Output:
+pwd.xml  ← generated automatically
 
- pwd.xml  ← generated automatically
-🔑 Parameters
+## 🔑 Parameters
 Param	Description
 password	User input password
 pwd.xml will be generated
-🧪 Technical Details
+
+## 🧪 Technical Details
 Hash is generated in 2 steps:
 MD5 of password (uppercase)
 Concatenated with fixed salt LD|SD → MD5 final (uppercase)
 Final hash is written in all password fields of pwd.xml
-⚠️ Disclaimer
 
+## ⚠️ Disclaimer
 This project is for:
 
 Educational purposes
@@ -87,12 +90,12 @@ Understanding SHOTO password hashing
 
 ❗ Do not use this tool for unauthorized access to devices or systems.
 
-👨‍💻 Author
+## 👨‍💻 Author
 GitHub: https://github.com/mirceabdr
-⭐ Support
+
+## ⭐ Support
 
 If you like this project:
-
 ⭐ Star the repo
 🍴 Fork it
 🧠 Contribute and improve
